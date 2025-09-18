@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Firebase Hosting Test</title>
-  </head>
-  <body>
-    <h1>Hello Firebase 🚀</h1>
-  </body>
-</html>
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
